@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+    .header {
+        padding: 32px 0 104px;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .menu {
+        position: relative;
+        visibility: visible;
+        padding: 0 0 30px;
+        border-bottom: 1px solid var(--light-grey);
+        margin-bottom: 35px;
+        &__list {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__item {
+            margin-bottom: 0;
+        }
+        &__link {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+    .middle-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-bottom: 55px;
+    }
+
+    .title {
+        margin-bottom: -10px;
+    }
+    
+    .bio {
+        margin-bottom: 0;
+    }
+
+    .lang-menu {
+        position: relative;
+        visibility: visible;
+        bottom: 0;
+        right: 0;
+        &__list {
+            transform: rotate(180deg);
+        }
+    }
+
+    .hero {
+        &__img {
+            object-position: center -50px;
+        }
+    }
+}
