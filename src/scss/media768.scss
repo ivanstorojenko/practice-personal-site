@@ -56,4 +56,23 @@
             object-position: center -50px;
         }
     }
+
+    .skills {
+        padding-bottom: 30px;
+    }
+    .paragraph_skills {
+        margin-bottom: 85px;
+    }
+    .programs {
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            & .stars {
+                margin-top: auto;
+            }
+        }
+    }
 }
