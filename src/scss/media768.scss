@@ -10,6 +10,7 @@
     .menu {
         position: relative;
         visibility: visible;
+        opacity: 1;
         padding: 0 0 30px;
         border-bottom: 1px solid var(--light-grey);
         margin-bottom: 35px;
@@ -44,6 +45,7 @@
     .lang-menu {
         position: relative;
         visibility: visible;
+        opacity: 1;
         bottom: 0;
         right: 0;
         &__list {
