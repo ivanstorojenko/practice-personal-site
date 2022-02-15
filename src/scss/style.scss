@@ -2,7 +2,7 @@
 
 :root {
     --dark-grey: #090909;
-    --light-grey: #828282;
+    --light-grey: #757575;
     --bg-grey: #F6F6F6;
     
   }
@@ -112,6 +112,7 @@ a {
     height: 20px;
     padding: 0;
     z-index: 1;
+    cursor: pointer;
     & span {
         position: relative;
         display: block;  
@@ -160,14 +161,14 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 0%;
     padding: 62px 30px 0;
     opacity: 0;
-    background-color: transparent;
-    transition: background-color .3s, opacity .3s;
+    background-color: #fff;
+    transition: opacity .3s;
     &_active {
         opacity: 1;
-        background-color: #fff;
+        height: 100%;
     }
     &__item {
         margin-bottom: 55px;
@@ -313,6 +314,8 @@ a {
         margin-bottom: 75px;
         & .item__img {
             margin-bottom: 30px;
+            width: 100%;
+            height: auto;
         }
     }
 }
@@ -330,6 +333,7 @@ a {
         border: none;
         border-radius: 50px;
         margin-bottom: 48px;
+        cursor: pointer;
     }
     .soc-list {
         display: flex;
