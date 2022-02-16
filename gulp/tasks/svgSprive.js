@@ -13,7 +13,7 @@ export const svgSprive = () => {
                 stack: {
                     sprite: '../icons/icons.svg',
                     //создание страницы с перечнем иконок
-                    example: true
+                    example: false
                 }
             },
         }))

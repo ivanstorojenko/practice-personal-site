@@ -300,9 +300,9 @@ a {
         &__item {
             width: 26px;
             height: 26px;
-            background: url("@img/Star-grey.svg") center center no-repeat;
+            background: url("../../img/icons/icons.svg#Star-grey") center center no-repeat;
             &_active {
-                background: url("@img/Star.svg") center center no-repeat;
+                background: url("../../img/icons/icons.svg#Star") center center no-repeat;
             }
         }
     }
